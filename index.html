@@ -66,6 +66,55 @@
 	<p>Imagens gratuitas do Pexels ou pixabay ou freepik ou flaticon, redimensionadas no easi resize ou criadas no photopea no formato png para ter fundo transparente... ou mesmo trabalhando uma imagen para ter links em partes dela com o image map generator (Que gera o codigo da imagem mapeada)<br></p>
 
 
+<h2>Formulário</h2>
+
+<!-- for e o id servem para que se o label for clicado, o imput será acionado-->
+
+<form>
+	<label for="campo_nome">Nome:</label>
+	<input id="campo_nome" type="text" placeholder="Digite seu nome aqui" name="" required>
+	<br><br>
+	<label for="campo_email">E-mail:</label>
+	<input id="campo_email" type="email" placeholder="Digite seu e-mail" name="" required>
+	<br> <br>
+	<label for="campo_senha">Senha:</label>
+	<input id="campo_senha" type="password" placeholder="Digite sua senha" name="" required>
+	<br> <br>
+
+	<h3>Animal de Estimação</h3>
+	<input type="radio" id="dog" name="animal" value="Cachorro"> <label for="dog">Cachorro</label>
+	<br>
+	<input type="radio" id="cat" name="animal" value="Gato"> <label for="cat">Gato</label>
+	<br>
+
+	<h3>O que você tem em casa?</h3>
+	<input id="item1" type="checkbox" name="item1" value="Tv">
+	<label for="item1">Tv</label>
+	<br>
+	<input id="item2" type="checkbox" name="item2" value="Geladeira">
+	<label for="item2">Geladeira</label>
+	<br>
+	<input id="item3" type="checkbox" name="item3" value="Computador">
+	<label for="item3">Computador</label>
+	<br>
+
+	<h3>Escolha uma cor</h3>
+	<select>
+		<option selected disabled value="">Selecione uma cor</option>
+		<option value="vermelho">Vermelho</option>
+		<option value="azul">Azul</option>
+		<option value="amarelo">Amarelo</option>
+	</select>
+	<br>
+
+	<h3>Digite sua mensagem</h3>
+	<textarea placeholder="Digite aqui a mensagem" rows="15" cols="55"></textarea>
+	<br><br>
+	<input type="submit" value="Enviar Formulário" name="">
+	<br><br>
+	<button>Enviar por aqui também</button>
+</form>
+
 <h2>Tabela</h2>
 	<table width="50%" border="1">
 		<tr>
